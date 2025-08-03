@@ -38,7 +38,7 @@ python shopper_spectrum_analysis.py
 
 ### **Launch Streamlit App**
 ```bash
-streamlit run app.py
+python -m streamlit run app.py --server.port 8506
 ```
 
 ## 📊 **Project Structure**
@@ -211,3 +211,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 **🎉 Ready to transform your e-commerce analytics with Shopper Spectrum!** 
+
